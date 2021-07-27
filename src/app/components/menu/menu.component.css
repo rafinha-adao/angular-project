@@ -1,0 +1,22 @@
+.container {
+  margin-top: 20px;
+}
+
+#div-img-food-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-food-menu {
+  height: 400px;
+  width: 400px;
+}
+
+div > h1 {
+  margin-top: 80px;
+}
+
+div > h5 {
+  margin-top: 40px;
+}
