@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MenuComponent } from './components/menu/menu.component';
-import { CardsProdutosComponent } from './components/cards-produtos/cards-produtos.component';
+import { CardsProdutosComponent } from './components/cards/cards-produtos.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ProductsComponent } from './pages/products/products.component';
 import { ContactComponent } from './pages/contact/contact.component';
@@ -13,7 +13,9 @@ import { AboutComponent } from './pages/about/about.component';
 
 import { Routing } from './app-routing';
 import { FooterComponent } from './components/footer/footer.component';
-import { Error404Component } from './pages/error404/error404.component'
+import { Error404Component } from './pages/error404/error404.component';
+import { ProductCreateComponent } from './components/product/product-create/product-create.component';
+import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { Error404Component } from './pages/error404/error404.component'
     ContactComponent,
     AboutComponent,
     FooterComponent,
-    Error404Component
+    Error404Component,
+    ProductCreateComponent,
+    ProductDeleteComponent
   ],
   imports: [
     BrowserModule,

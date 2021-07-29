@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Hot Dog",
+      "price": 10,
+      "amount": 6
+    },
+    {
+      "id": 2,
+      "name": "Refrigerante",
+      "price": 4,
+      "amount": 6
+    },
+    {
+      "id": 3,
+      "name": "Chocolate",
+      "price": 3,
+      "amount": 2
+    },
+    {
+      "id": 4,
+      "name": "Água",
+      "price": 2,
+      "amount": 8
+    }
+  ]
+}

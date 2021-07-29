@@ -6,6 +6,9 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { AboutComponent } from './pages/about/about.component';
 import { Error404Component } from './pages/error404/error404.component';
 
+import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
+import { ProductCreateComponent } from './components/product/product-create/product-create.component';
+
 const routes: Routes = [
     { path: 'home', component: HomeComponent },
     { path: 'products', component: ProductsComponent },
@@ -14,7 +17,15 @@ const routes: Routes = [
     { path: '', redirectTo: 'home', pathMatch: 'full' },
     {
       path: '**', component: Error404Component
-    }
+    },
+    {
+      path: "products/create",
+      component: ProductCreateComponent
+    },
+    {
+      path: "products/delete/:id",
+      component: ProductDeleteComponent
+    },
 ];
 
 @NgModule({
