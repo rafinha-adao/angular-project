@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
@@ -34,6 +35,7 @@ import { ProductDeleteComponent } from './components/product/product-delete/prod
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     NgbModule,
     Routing
   ],
