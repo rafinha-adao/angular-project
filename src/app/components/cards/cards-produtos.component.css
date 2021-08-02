@@ -1,0 +1,56 @@
+.div-img {
+  align-content: center;
+  width: inherit;
+  height: inherit;
+  margin-top: 15px;
+  padding: 15px;
+  width: 240px;
+  height: 200px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-body > h5 {
+  font-size: 30px;
+}
+
+.container-cards {
+  justify-content: center;
+  display: grid;
+    grid-template-columns: 0.2fr 0.2fr 0.2fr;
+    margin: 0px;
+    padding: 0px;
+    grid-template-rows: 2fr 2fr 2fr;
+    grid-template-areas: "h h h"
+                         "a m m"
+                         "f f f"
+}
+
+button {
+  height: 40px;
+  width: 140px;
+  border: 4px;
+  border-radius: 90px;
+  background-color: #f2652f;
+}
+
+button > p {
+  text-align: center;
+  margin: 0px;
+  color: white;
+  font-size: 18px;
+}
+
+.value-text {
+  font-size: 20px;
+}
+

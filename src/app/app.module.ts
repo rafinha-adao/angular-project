@@ -15,8 +15,6 @@ import { AboutComponent } from './pages/about/about.component';
 import { Routing } from './app-routing';
 import { FooterComponent } from './components/footer/footer.component';
 import { Error404Component } from './pages/error404/error404.component';
-import { ProductCreateComponent } from './components/product/product-create/product-create.component';
-import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
 
 @NgModule({
   declarations: [
@@ -29,15 +27,13 @@ import { ProductDeleteComponent } from './components/product/product-delete/prod
     ContactComponent,
     AboutComponent,
     FooterComponent,
-    Error404Component,
-    ProductCreateComponent,
-    ProductDeleteComponent
+    Error404Component
   ],
   imports: [
+    NgbModule,
+    Routing,
     BrowserModule,
     HttpClientModule,
-    NgbModule,
-    Routing
   ],
   providers: [],
   bootstrap: [AppComponent]

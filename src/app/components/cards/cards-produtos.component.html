@@ -1,8 +1,17 @@
-<div *ngFor="" class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title"></h5>
-    <p class="card-text"></p>
-    <a href="#" class="btn btn-primary"></a>
+<div class="row container-cards">
+  <div *ngFor="let product of products" class="card" style="width: 18rem;">
+    <div class="div-img">
+      <img src="{{product.img}}" class="card-img-top" alt="">
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">{{product.nome}}</h5>
+      <p class="card-text">{{product.quantidade}} disponíveis</p>
+      <p class="card-text value-text">R$ {{product.valor}}</p>
+      <div class="button-div">
+        <button routerLink="/products">
+          <p>Comprar</p>
+        </button>
+      </div>
+    </div>
   </div>
 </div>
