@@ -1,3 +1,7 @@
+.container-cards {
+  margin-bottom: 30px;
+}
+
 .div-img {
   align-content: center;
   width: inherit;
@@ -27,9 +31,7 @@
   justify-content: center;
   display: grid;
     grid-template-columns: 0.2fr 0.2fr 0.2fr;
-    margin: 0px;
-    padding: 0px;
-    grid-template-rows: 2fr 2fr 2fr;
+    grid-template-rows: 2fr 2fr 0.5fr;
     grid-template-areas: "h h h"
                          "a m m"
                          "f f f"

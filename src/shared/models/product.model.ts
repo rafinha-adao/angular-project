@@ -1,6 +1,6 @@
 export interface IProduct {
-  img: any;
   id: number;
+  img: any;
   nome: string;
   valor: number;
   quantidade: number
