@@ -1,11 +1,5 @@
 .container {
-  margin-top: 20px;
-}
-
-#div-img-food-menu {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-top: 100px;
 }
 
 .img-food-menu {
@@ -20,3 +14,33 @@ div > h1 {
 div > h5 {
   margin-top: 40px;
 }
+
+#div-img-food-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-button {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+button {
+  margin: 0px;
+  height: 60px;
+  width: 180px;
+  border: 4px;
+  border-radius: 90px;
+  background-color: #57636f;
+}
+
+button > p {
+  text-align: center;
+  margin: 0px;
+  color: white;
+  font-size: 22px;
+}
+
