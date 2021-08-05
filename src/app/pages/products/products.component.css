@@ -1,22 +1,37 @@
-div {
+.container-buttons {
   display: flex;
-  align-content: center;
-  justify-content: center;
-  margin-top: 80px;
+  justify-content: flex-end;
+  margin-right: 92px;
+  margin-bottom: 72px;
 }
 
-div > button {
-  margin: 0px;
-  height: 60px;
-  width: 180px;
-  border: 4px;
-  border-radius: 90px;
+.button-1 {
+  border-radius: 45px 8px 8px 45px;
+  margin-right: 2px;
+  background-color: limegreen;
+}
+
+.button-2 {
   background-color: #57636f;
+  width: 80px;
 }
 
-div > button > p {
+.button-3 {
+  border-radius: 8px 45px 45px 8px;
+  margin-left: 2px;
+  background-color: red;
+}
+
+button {
+  margin: 0px;
+  height: 42px;
+  width: 120px;
+  border: 4px;
+}
+
+button > p {
   text-align: center;
   margin: 0px;
   color: white;
-  font-size: 22px;
+  font-size: large;
 }

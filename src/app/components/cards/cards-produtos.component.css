@@ -1,12 +1,14 @@
 .container-cards {
-  margin-bottom: 30px;
+  margin-top: 64px;
+  margin-bottom: 48px;
 }
 
 .div-img {
   align-content: center;
   width: inherit;
   height: inherit;
-  margin-top: 15px;
+  margin-top: 18px;
+  margin-bottom: 28px;
   padding: 15px;
   width: 240px;
   height: 200px;
@@ -16,7 +18,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 40px;
 }
 
 .card-body {
@@ -31,7 +32,6 @@
   justify-content: center;
   display: grid;
     grid-template-columns: 0.2fr 0.2fr 0.2fr;
-    grid-template-rows: 2fr 2fr 0.5fr;
     grid-template-areas: "h h h"
                          "a m m"
                          "f f f"
