@@ -12,6 +12,7 @@ import { MenuComponent } from './components/menu/menu.component';
 import { CardsProdutosComponent } from './components/cards/cards-produtos.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
+import { ProductFormComponent } from './components/product-form/product-form.component';
 
 import { HomeComponent } from './pages/home/home.component';
 import { ProductsComponent } from './pages/products/products.component';
@@ -36,7 +37,8 @@ import { Error404Component } from './pages/error404/error404.component';
     Error404Component,
     AddProductComponent,
     DeleteProductComponent,
-    UpdateProductComponent
+    UpdateProductComponent,
+    ProductFormComponent
   ],
   imports: [
     NgbModule,

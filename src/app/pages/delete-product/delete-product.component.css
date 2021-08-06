@@ -1,0 +1,32 @@
+.container-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 92px;
+  margin-bottom: 72px;
+}
+
+.button-voltar {
+  border-radius: 45px 8px 8px 45px;
+  margin-right: 2px;
+  background-color: red;
+}
+
+.button-salvar {
+  border-radius: 8px 45px 45px 8px;
+  margin-left: 2px;
+  background-color: limegreen;
+}
+
+button {
+  margin: 0px;
+  height: 42px;
+  width: 120px;
+  border: 4px;
+}
+
+button > p {
+  text-align: center;
+  margin: 0px;
+  color: white;
+  font-size: large;
+}
