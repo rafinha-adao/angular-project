@@ -22,7 +22,7 @@ export class CardsProdutosComponent implements OnInit {
     this.getProducts();
   }
 
-  // defini se um productro será criado ou atualizado
+  // defini se um produto será criado ou atualizado
   saveProduct() {
     if (this.product.id !== undefined) {
       this.productsService.updateProduct(this.product).subscribe();
@@ -32,19 +32,19 @@ export class CardsProdutosComponent implements OnInit {
       };
     }
 
-  // Chama o serviço para obtém todos os productros
+  // Chama o serviço para obtém todos os produtos
   getProducts() {
     this.productsService.getProducts().subscribe((product: IProduct[]) => {
       this.products = product
     })
   }
 
-  // deleta um productro
+  // deleta um produto
   deleteProduct(product: IProduct) {
     this.productsService.deleteProduct(product).subscribe();
   }
 
-  // copia o productro para ser editado.
+  // copia o produto para ser editado.
   editProduct(product: IProduct) {
     product = { ...product };
   }

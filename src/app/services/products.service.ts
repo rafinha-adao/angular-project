@@ -12,8 +12,7 @@ import { IProduct } from '../../shared/models/product.model'
 
 export class ProductsService {
 
-  apiUrl = 'http://localhost:3000/content'
-
+  apiUrl = 'http://localhost:3000/products'
 
   constructor(private httpClient: HttpClient) {}
 

@@ -1,12 +1,12 @@
 <div class="container-cards">
   <div *ngFor="let product of products" class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
     <div class="div-img">
-      <img src="{{product.img}}" class="card-img-top" alt="">
+      <img src="{{ product.img }}" class="card-img-top" alt="">
     </div>
     <div class="card-body">
-      <h5 class="card-title">{{product.nome}}</h5>
-      <p class="card-text">{{product.quantidade}} disponíveis</p>
-      <p class="card-text value-text">R$ {{product.valor}}</p>
+      <h5 class="card-title">{{ product.nome }}</h5>
+      <p class="card-text">{{ product.quantidade }} disponíveis</p>
+      <p class="card-text value-text">R$ {{ product.valor }}</p>
       <div class="button-div">
         <button routerLink="/products" class="btn shadow-sm">
           <p>Comprar</p>
