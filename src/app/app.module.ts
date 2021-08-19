@@ -22,6 +22,7 @@ import { AddProductComponent } from './pages/add-product/add-product.component'
 import { DeleteProductComponent } from './pages/delete-product/delete-product.component';
 import { UpdateProductComponent } from './pages/update-product/update-product.component';
 import { Error404Component } from './pages/error404/error404.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -45,6 +46,7 @@ import { Error404Component } from './pages/error404/error404.component';
     Routing,
     BrowserModule,
     HttpClientModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
