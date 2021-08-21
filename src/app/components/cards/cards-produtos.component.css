@@ -1,58 +1,75 @@
+.container-body {
+  background-color: #f2f2f2;
+}
+
 .container-cards {
-  margin-top: 64px;
-  margin-bottom: 48px;
-}
-
-.div-img {
-  align-content: center;
-  width: inherit;
-  height: inherit;
-  margin-top: 18px;
-  margin-bottom: 28px;
-  padding: 15px;
-  width: 240px;
-  height: 200px;
-}
-
-.card {
   display: flex;
-  justify-content: center;
   align-items: center;
-}
-
-.card-body {
-  text-align: center;
-}
-
-.card-body > h5 {
-  font-size: 30px;
-}
-
-.container-cards {
   justify-content: center;
-  display: grid;
-    grid-template-columns: 0.2fr 0.2fr 0.2fr;
-    grid-template-areas: "h h h"
-                         "a m m"
-                         "f f f"
+  margin: auto;
 }
 
-button {
-  height: 40px;
-  width: 140px;
-  border: 4px;
-  border-radius: 90px;
-  background-color: #f2652f;
+.div-card {
+  margin: 25px 0 25px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 1080px;
 }
 
-button > p {
+mat-card {
+  width: 250px;
+  height: 400px;
+  margin: 20px 10px 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
-  margin: 0px;
-  color: white;
-  font-size: 18px;
 }
 
-.value-text {
+mat-card-header {
+  margin: 5px;
+}
+
+mat-card-title > p{
+  margin-top: 10px;
   font-size: 20px;
 }
 
+mat-card-subtitle > p{
+  font-size: 12px;
+}
+
+.img-container {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  min-width: 120px;
+  min-height: 120px;
+  max-width: 200px;
+  max-height: 200px;
+  position: inherit;
+}
+
+mat-card-content {
+  margin: 10px;
+}
+
+mat-card-content > p {
+  font-size: 18px;
+  margin-bottom: 18px;
+}
+
+mat-card-actions {
+  padding: 4px;
+}
+
+button {
+  font-size: 20px;
+}

@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
-import { ProductsService } from 'src/app/services/products.service';
+import { ProductsService } from 'src/app/services/products.service'
 import { IProduct } from 'src/shared/models/product.model'
-
 @Component({
   selector: 'app-cards-produtos',
   templateUrl: './cards-produtos.component.html',

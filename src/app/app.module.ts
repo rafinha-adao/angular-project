@@ -24,6 +24,10 @@ import { UpdateProductComponent } from './pages/update-product/update-product.co
 import { Error404Component } from './pages/error404/error404.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+//ANGULAR MATERIAL
+import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -47,6 +51,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserModule,
     HttpClientModule,
     BrowserAnimationsModule,
+    MatCardModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,17 +1,29 @@
-<div class="container-cards">
-  <div *ngFor="let product of products" class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
-    <div class="div-img">
-      <img src="{{ product.img }}" class="card-img-top" alt="">
-    </div>
-    <div class="card-body">
-      <h5 class="card-title">{{ product.nome }}</h5>
-      <p class="card-text">{{ product.quantidade }} disponíveis</p>
-      <p class="card-text value-text">R$ {{ product.valor }}</p>
-      <div class="button-div">
-        <button routerLink="/products" class="btn shadow-sm">
-          <p>Comprar</p>
-        </button>
-      </div>
+<div class="container-body">
+  <div class="container-cards">
+    <div class="div-card">
+      <mat-card *ngFor="let product of products">
+        <mat-card-header>
+          <mat-card-title>
+            <p>
+              {{ product.nome }}
+            </p>
+          </mat-card-title>
+          <mat-card-subtitle>
+            <p>
+              {{ product.quantidade }} disponíveis
+            </p>
+          </mat-card-subtitle>
+        </mat-card-header>
+        <div class="img-container">
+          <img mat-card-image [src]="product.img" [alt]="product.nome" />
+        </div>
+        <mat-card-content>
+          <p>R$ {{ product.valor }}</p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button routerLink="/products" mat-stroked-button>Comprar</button>
+        </mat-card-actions>
+      </mat-card>
     </div>
   </div>
 </div>
