@@ -32,12 +32,12 @@ mat-card-header {
   margin: 5px;
 }
 
-mat-card-title > p{
+mat-card-title > p {
   margin-top: 10px;
   font-size: 20px;
 }
 
-mat-card-subtitle > p{
+mat-card-subtitle > p {
   font-size: 12px;
 }
 
@@ -58,7 +58,7 @@ img {
 }
 
 mat-card-content {
-  margin: 10px;
+  margin: 12px;
 }
 
 mat-card-content > p {
