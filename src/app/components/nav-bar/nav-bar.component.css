@@ -1,8 +1,19 @@
-#nav-img-hamburguer {
-  height: 40px;
-  width: 40px;
+mat-toolbar {
+  display: flex;
+  justify-content: center;
 }
 
-.navbar-nav {
-  font-size: 18px;
+.container-navbar {
+  display: flex;
+  width: 1148px;
+  align-items: center;
 }
+/*
+.nav-links {
+
+}
+
+.nav-links > button {
+
+}
+*/
