@@ -10,14 +10,14 @@
               <mat-label>Usuário</mat-label>
               <input type="text" matInput [formControl]="userFormControl" placeholder="">
               <mat-error *ngIf="userFormControl.hasError('required')">
-                Usuário é obrigatório
+                Campo obrigatório
               </mat-error>
             </mat-form-field>
             <mat-form-field class="input-password" appearance="fill">
               <mat-label>Senha</mat-label>
               <input type="password" matInput [formControl]="passwordFormControl" placeholder="">
               <mat-error *ngIf="passwordFormControl.hasError('required')">
-                Senha é obrigatória
+                Campo obrigatório
               </mat-error>
             </mat-form-field>
           </mat-card-content>
