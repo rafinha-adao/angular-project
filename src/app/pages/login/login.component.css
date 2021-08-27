@@ -1,0 +1,39 @@
+.container-login {
+  height: 100vh;
+  width: 100vw;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.div-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+mat-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 420px;
+  width: 350px;
+}
+
+mat-card-header {
+  margin-bottom: 40px;
+}
+
+mat-card-content {
+  display: flex;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+mat-card-actions {
+  margin-top: 40px;
+}
