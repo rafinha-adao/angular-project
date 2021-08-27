@@ -1,18 +1,20 @@
 <mat-toolbar>
   <div class="container-navbar">
-    <button mat-icon-button routerLink="/home">
-      <mat-icon>lunch_dining</mat-icon>
-    </button>
+    <mat-icon class="icon-hamburguer">lunch_dining</mat-icon>
     <div class="nav-links">
-      <button mat-button routerLink="/products">
+      <button mat-button routerLink="/produtos">
         <span>Comprar</span>
       </button>
       <button mat-button routerLink="/">
         <span>Perfil</span>
       </button>
-      <button mat-button routerLink="/about">
+      <button mat-button routerLink="/sobre">
         <span>Sobre</span>
       </button>
     </div>
+    <span class="nav-spacer"></span>
+    <button mat-icon-button class="button-cart" routerLink="">
+      <mat-icon class="icon-cart">shopping_cart</mat-icon>
+    </button>
   </div>
 </mat-toolbar>

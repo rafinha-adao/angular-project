@@ -9,13 +9,6 @@ import { FormGroup, FormControl } from '@angular/forms';
 
 export class ProductFormComponent implements OnInit {
 
-  productForm = new FormGroup({
-    image: new FormControl(''),
-    name: new FormControl(''),
-    value: new FormControl(''),
-    amount: new FormControl(''),
-  });
-
   constructor() { }
 
   ngOnInit(): void { }

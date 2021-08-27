@@ -1,19 +1,20 @@
 mat-toolbar {
-  display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .container-navbar {
   display: flex;
+  flex-direction: row;
   width: 1148px;
   align-items: center;
-}
-/*
-.nav-links {
-
+  justify-content: center;
 }
 
-.nav-links > button {
-
+.icon-hamburguer {
+  margin-right: 12px;
 }
-*/
+
+.nav-spacer {
+  flex: 1 1 auto;
+}
