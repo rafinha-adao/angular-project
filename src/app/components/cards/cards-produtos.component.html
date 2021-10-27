@@ -5,23 +5,23 @@
         <mat-card-header>
           <mat-card-title>
             <p>
-              {{ product.nome }}
+              {{ product.name }}
             </p>
           </mat-card-title>
           <mat-card-subtitle>
             <p>
-              {{ product.quantidade }} disponíveis
+              {{ product.amount }} disponíveis
             </p>
           </mat-card-subtitle>
         </mat-card-header>
         <div class="img-container">
-          <img mat-card-image [src]="product.img" [alt]="product.nome" />
+          <img mat-card-image [src]="product.img" [alt]="product.name" />
         </div>
         <mat-card-content>
-          <p>R$ {{ product.valor }}</p>
+          <p>R$ {{ product.price }}</p>
         </mat-card-content>
         <mat-card-actions>
-          <button routerLink="/products" mat-stroked-button>Comprar</button>
+          <button routerLink="/produtos" mat-raised-button color="accent">Comprar</button>
         </mat-card-actions>
       </mat-card>
     </div>

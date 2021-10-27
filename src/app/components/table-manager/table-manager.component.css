@@ -1,0 +1,40 @@
+.container-manager {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 48px;
+}
+
+.container-actions {
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container-buttons {
+  flex: 1 1 auto;
+  text-align: end;
+}
+
+button {
+  margin-left: 5px;
+}
+
+.mat-form-field {
+  font-size: 18px;
+  width: 300px;
+}
+
+.container-table {
+
+}
+
+table {
+  width: 1200px;
+}
+
+td, th {
+  width: 25%;
+}

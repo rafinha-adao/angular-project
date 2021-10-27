@@ -12,9 +12,9 @@ import { IProduct } from '../../shared/models/product.model'
 
 export class ProductsService {
 
-  apiUrl = 'http://localhost:3000/products'
+  apiUrl = 'http://localhost:3001/foods'
 
-  constructor(private httpClient: HttpClient) {}
+  constructor(private httpClient: HttpClient) { }
 
   httpOptions = {
     headers: new HttpHeaders({ 'Content-Type': 'application/json' })

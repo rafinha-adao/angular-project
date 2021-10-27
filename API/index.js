@@ -65,7 +65,7 @@ server.delete('/products/:index', (req, res) => {
 
   products.splice(index -1, 1)
 
-  return res.json({ message: "O curso foi deletado" })
+  return res.json({ message: "O produto foi deletado" })
 })
 
 server.listen(PORT, () => {

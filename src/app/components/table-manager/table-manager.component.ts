@@ -1,15 +1,17 @@
 import { Component, OnInit } from '@angular/core';
+import { MatTableDataSource } from '@angular/material/table';
 
 import { ProductsService } from 'src/app/services/products.service'
 import { IProduct } from 'src/shared/models/product.model'
 
 @Component({
-  selector: 'app-cards-produtos',
-  templateUrl: './cards-produtos.component.html',
-  styleUrls: ['./cards-produtos.component.css']
+  selector: 'app-table-manager',
+  templateUrl: './table-manager.component.html',
+  styleUrls: ['./table-manager.component.css']
 })
+export class TableManagerComponent implements OnInit {
 
-export class CardsProdutosComponent implements OnInit {
+  displayedColumns: string[] = ['Posição', 'Nome', 'Preço', 'Quantidade'];
 
   product = {} as IProduct;
   products: IProduct[];

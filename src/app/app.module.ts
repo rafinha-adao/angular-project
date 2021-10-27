@@ -1,7 +1,7 @@
 import { AppComponent } from './app.component';
 
-import { ReactiveFormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
+import { ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 
@@ -20,10 +20,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { ProductsComponent } from './pages/products/products.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { AboutComponent } from './pages/about/about.component';
-import { AddProductComponent } from './pages/add-product/add-product.component'
-import { DeleteProductComponent } from './pages/delete-product/delete-product.component';
-import { UpdateProductComponent } from './pages/update-product/update-product.component';
 import { Error404Component } from './pages/error404/error404.component';
+import { ManagerComponent } from './pages/manager/manager.component';
 
 //ANGULAR MATERIAL
 import { MatCardModule } from '@angular/material/card';
@@ -31,7 +29,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
-import { ManagerComponent } from './pages/manager/manager.component';
+import { MatTableModule } from '@angular/material/table';
+import { TableManagerComponent } from './components/table-manager/table-manager.component';
 
 @NgModule({
   declarations: [
@@ -46,11 +45,9 @@ import { ManagerComponent } from './pages/manager/manager.component';
     AboutComponent,
     FooterComponent,
     Error404Component,
-    AddProductComponent,
-    DeleteProductComponent,
-    UpdateProductComponent,
     ProductFormComponent,
     ManagerComponent,
+    TableManagerComponent,
   ],
   imports: [
     Routing,
@@ -62,7 +59,8 @@ import { ManagerComponent } from './pages/manager/manager.component';
     MatButtonModule,
     MatToolbarModule,
     MatIconModule,
-    MatInputModule
+    MatInputModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
